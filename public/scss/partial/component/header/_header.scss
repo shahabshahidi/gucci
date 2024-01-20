@@ -1,0 +1,29 @@
+/* start hesder styles */
+
+@import 'menu.scss';
+@import 'navigation.scss';
+@import 'logo.scss';
+
+.header {
+  padding: 2rem 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: var(--top-level-x);
+}
+
+body {
+  @media (min-width: 768px) {
+    .contact-us {
+      display: block;
+    }
+
+    &.is__effect {
+      .contact-us {
+        display: none;
+      }
+    }
+  }
+}

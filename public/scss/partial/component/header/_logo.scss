@@ -1,0 +1,65 @@
+/*Start logo styles*/
+
+.logo {
+
+  &-large {
+    @media (min-width: 768px) {
+      //position: absolute;
+      //top: 0;
+      //left: 50%;
+      //transform: translate(-50%,0);
+      //-webkit-transform: translate(-50%,0);
+      //-moz-transform: translate(-50%,0);
+      //-ms-transform: translate(-50%,0);
+      //-o-transform: translate(-50%,0);
+      //transition: transform .5s ease-in-out;
+
+      &.is__active {
+
+        //transform: translate(-50%,10rem) scale(10);
+        //-webkit-transform: translate(-50%,10rem) scale(10);
+        //-moz-transform: translate(-50%,10rem) scale(10);
+        //-ms-transform: translate(-50%,10rem) scale(10);
+        //-o-transform: translate(-50%,10rem) scale(10);
+        //transition: transform .5s ease-in-out;
+      }
+    }
+  }
+
+  &-link {
+    font-size:calc(100vw / 50);
+    font-weight: 500;
+    color: var(--color--body);
+    letter-spacing: calc(100vw / 155);
+
+    &:hover {
+      color: var(--color--body);
+    }
+  }
+}
+
+body {
+  @media (min-width: 768px) {
+    .logo-large {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%,0);
+      -webkit-transform: translate(-50%,0);
+      -moz-transform: translate(-50%,0);
+      -ms-transform: translate(-50%,0);
+      -o-transform: translate(-50%,0);
+      transition: transform .5s ease-in-out;
+    }
+    &.is__effect {
+      .logo-large {
+        transform: translate(-50%,10rem) scale(10);
+        -webkit-transform: translate(-50%,10rem) scale(10);
+        -moz-transform: translate(-50%,10rem) scale(10);
+        -ms-transform: translate(-50%,10rem) scale(10);
+        -o-transform: translate(-50%,10rem) scale(10);
+        transition: transform .5s ease-in-out;
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.icon{
+    
+    &-link{
+        color:var(--color--body);
+        
+        &:hover{
+            color:var(--color--body);
+        }
+    }
+}

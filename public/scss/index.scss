@@ -1,0 +1,9 @@
+@import 'partial/configs/fonts';
+@import 'partial/configs/variables';
+@import 'partial/configs/global';
+@import 'partial/configs/helper';
+@import 'partial/component/header/header';
+@import 'partial/component/main/main';
+
+
+// node-sass public/scss/index.scss public/css/style.css --w

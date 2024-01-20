@@ -1,0 +1,34 @@
+.menu{
+
+    @media (min-width: 768px) {
+        display: flex;
+        width:100%;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+
+    &-list{
+        display: flex;
+        gap: 1rem;
+        flex-flow: row-reverse;
+        gap: 1.5rem;
+    }
+
+    &-item{
+
+    }
+
+    &-link{
+        font-size: 1.4rem;
+    }
+
+    .contact-us{
+        font-size: 1.4rem;
+        text-transform: capitalize;
+
+         .fa-plus{
+            font-size: 1rem;
+         }
+    }
+}
