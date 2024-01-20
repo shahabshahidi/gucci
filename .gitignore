@@ -24,10 +24,6 @@ yarn-debug.log*
 
 .vscode/*
 /.idea
-backend/.idea
-frontend/public/images
-backend/public/images
-backend/.env
-backend/.env
-db.json
-backend/models/db.json
+
+
+
